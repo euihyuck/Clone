@@ -17,6 +17,15 @@ $('header').mouseleave(function () {
 
 })
 
+$('.hamburger').click(function () {
+    $('.mo_gnbbox').fadeIn()
+})
+
+$('.mo_gnbbox figure').click(function () {
+    $('.mo_gnbbox').fadeOut()
+
+})
+
 
 $('.con2_title li').click(function () {
     $(this).toggleClass('on').siblings().removeClass('on')
